@@ -24,6 +24,7 @@ The logo to this year's World Cup.
 This is Canada's first time qualifying since 1984.
 ```
 
+(content:gambling)=
 ## Gambling
 
 One of the most popular things to do during the World Cup is betting on who will win.
