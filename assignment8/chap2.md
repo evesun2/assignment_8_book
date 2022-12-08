@@ -34,6 +34,8 @@ C = 2 \Pi r
 Calculating the circumference of a human is not very accurate as humans are not perfect circles.
 ```
 
+### Radius
+
 According to a recent report in [The42](https://www.the42.ie/brazils-ronaldo-loses-17-kilos-in-reality-show-719895-Dec2012/), Ronaldo had a waist circumference of 42 inches which is 107 cm. Using equation {eq}`circumference`, we can calcuate his radius as follows:
 
 ```{math}
