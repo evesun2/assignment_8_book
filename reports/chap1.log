@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/Users/evelynsun/miniconda3/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/Users/evelynsun/miniconda3/lib/python3.8/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+chg_odds2 = [-100, -75, -50, -25, 25, 50, 75, 100]
+
+win_dict2 = {'odds':[],'percent_chance':[]}
+
+for num in chg_odds2:
+    win_dict2['odds'] += [num]
+    list=[]
+    list += 0 + win_calc(num,100)
+
+list
+    #for wins in list:
+        #win_dict2['percent_chance'] += [odds_calc(wins,100),100]
+
+win_dict2
+
+#odds_chance_table = pd.DataFrame.from_dict(win_dict2)
+#odds_chance_table
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mTypeError[0m                                 Traceback (most recent call last)
+Cell [0;32mIn [9], line 8[0m
+[1;32m      6[0m     win_dict2[[38;5;124m'[39m[38;5;124modds[39m[38;5;124m'[39m] [38;5;241m+[39m[38;5;241m=[39m [num]
+[1;32m      7[0m     [38;5;28mlist[39m[38;5;241m=[39m[]
+[0;32m----> 8[0m     [38;5;28mlist[39m [38;5;241m+[39m[38;5;241m=[39m [38;5;241m0[39m [38;5;241m+[39m win_calc(num,[38;5;241m100[39m)
+[1;32m     10[0m [38;5;28mlist[39m
+[1;32m     11[0m     [38;5;66;03m#for wins in list:[39;00m
+[1;32m     12[0m         [38;5;66;03m#win_dict2['percent_chance'] += [odds_calc(wins,100),100][39;00m
+
+[0;31mTypeError[0m: 'float' object is not iterable
+TypeError: 'float' object is not iterable
+
