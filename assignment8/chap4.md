@@ -1,4 +1,4 @@
-# Chapter 2: Ode to Ronaldo
+# Chapter 4: Ode to Ronaldo
 
 The former Brazilian player commonly known as No9 Ronaldo is one of soccer's most celebrated athletes. He formerly played in the World Cup in 1998, 2003, and 2006, scoring a total of 15 international goals in his youth {numref}`ronaldo_young`. He is now retired {numref}`ronaldo_now`.
 

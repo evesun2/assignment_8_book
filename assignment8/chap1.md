@@ -1,4 +1,4 @@
-# Guide to the World Cup
+# Chapter 1: Guide to the World Cup
 
 The [FIFA](www.fifa.com) World Cup is a soccer or football competition held every four years. The tournament hosts 32 countries. This year's World Cup tournament is in Qatar. The logo ({numref}`qatar_logo`) was designed by a studio in Lisbon, Portugal. 
 
