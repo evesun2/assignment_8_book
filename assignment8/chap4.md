@@ -3,12 +3,14 @@
 The former Brazilian player commonly known as No9 Ronaldo is one of soccer's most celebrated athletes. He formerly played in the World Cup in 1998, 2003, and 2006, scoring a total of 15 international goals in his youth {numref}`ronaldo_young`{cite}`afp_brazils_nodate`. He is now retired {numref}`ronaldo_now`{cite}`noauthor_main_2022`.
 
 ```{figure} https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTc5NTMyNzYwNTE0MzA3MjA5/gettyimages-892333.webp
+:height: 200px
 :name: ronaldo_young
 
 Ronaldo during his youth scoring at the World Cup.
 ```
 
 ```{figure} https://upload.wikimedia.org/wikipedia/commons/7/74/051119SMcC0014.jpg
+:height: 200px
 :name: ronaldo_now
 
 Ronaldo at the age of 43 taken in 2019. 
@@ -36,7 +38,7 @@ Calculating the circumference of a human is not very accurate as humans are not 
 
 ### Radius
 
-According to a recent report in [The42](https://www.the42.ie/brazils-ronaldo-loses-17-kilos-in-reality-show-719895-Dec2012/), Ronaldo had a waist circumference of 42 inches which is 107 cm. Using equation {eq}`circumference`, we can calcuate his radius as follows:
+According to a recent report in [The42](https://www.the42.ie/brazils-ronaldo-loses-17-kilos-in-reality-show-719895-Dec2012/){cite}`afp_brazils_nodate`, Ronaldo had a waist circumference of 42 inches which is 107 cm. Using equation {eq}`circumference`, we can calcuate his radius as follows:
 
 ```{math}
 :label: radius
