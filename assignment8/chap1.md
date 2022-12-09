@@ -3,6 +3,7 @@
 The [FIFA](www.fifa.com) World Cup is a soccer or football competition held every four years. The tournament hosts 32 countries. This year's World Cup tournament is in Qatar. The logo ({numref}`qatar_logo`) was designed by a studio in Lisbon, Portugal. 
 
 ```{figure} https://digitalhub.fifa.com/m/3821fe54d69cdf26/original/j5imrrf3rwgbmcgo2nny-jpg.jpg
+:height: 150px
 :name: qatar_logo
 
 The logo to this year's World Cup.
@@ -11,6 +12,7 @@ The logo to this year's World Cup.
 One of the countries participating this year is Canada ({numref}`canada_flag`). Canada's first World Cup match is against Belgium. Belgium came third in the last World Cup in 2018. 
 
 ```{figure} https://ised-isde.canada.ca/site/canadian-intellectual-property-office/sites/default/files/img/2022/CIMW-468_blog.png
+:height: 150px
 :name: canada_flag
 
 The Canadian flag.
