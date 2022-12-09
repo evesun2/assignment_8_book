@@ -1,6 +1,6 @@
 # Chapter 4: Ode to Ronaldo
 
-The former Brazilian player commonly known as No9 Ronaldo is one of soccer's most celebrated athletes. He formerly played in the World Cup in 1998, 2003, and 2006, scoring a total of 15 international goals in his youth {numref}`ronaldo_young`. He is now retired {numref}`ronaldo_now`.
+The former Brazilian player commonly known as No9 Ronaldo is one of soccer's most celebrated athletes. He formerly played in the World Cup in 1998, 2003, and 2006, scoring a total of 15 international goals in his youth {numref}`ronaldo_young`{cite}`afp_brazils_nodate`. He is now retired {numref}`ronaldo_now`{cite}`noauthor_main_2022`.
 
 ```{figure} https://www.si.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTc5NTMyNzYwNTE0MzA3MjA5/gettyimages-892333.webp
 :name: ronaldo_young
@@ -49,4 +49,8 @@ According to {eq}`radius`, current Ronaldo has a radius of 17 cm.
 
 ```{tip}
 To calculate Ronaldo's area you can use $A = \Pi r^2$.
+```
+
+```{bibliography}
+:filter: docname in docnames
 ```
